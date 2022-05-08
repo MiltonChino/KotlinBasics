@@ -1,30 +1,48 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This repository contains a varied number of basic kotlin code
 
-{Provide a description the software that you wrote to demonstrate the Kotlin language.}
+The list of content of the repository is:
+* Variables (mutable and immutable)
+* Expressions
+* Conditionals
+* Loops
+* Functions
+* Classes
 
-{Describe your purpose for writing this software.}
+This content will help to practice and test how Kotlin language is used.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+Video Explanation will come soon 
+[Software Demo Video](#)
 
 # Development Environment
+IntelliJ IDEA 2022.1 (Community Edition)
 
-{Describe the tools that you used to develop the software}
+Build #IC-221.5080.210, built on April 11, 2022
 
-{Describe the programming language that you used and any libraries.}
+Runtime version: 11.0.14.1+1-b2043.25 amd64
+
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+
+Memory: 750M
+
+Cores: 8
+
+Programming language used
+
+Kotlin: 221-1.6.20-release-285-IJ5080.210
+, no special libraries used on the project.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Learn Kotlin Programming - programiz.com](https://www.programiz.com/kotlin-programming)
+* [Kotlin Program Example](https://www.programiz.com/kotlin-programming/examples/sort-custom-objects-property)
+* [Nullable types and non-null types - kotlinlang.org](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types)
+* [Collection types](https://kotlinlang.org/docs/collections-overview.html#collection-types)
+* [Common error case, Type mismatch - codeacademy.com](https://discuss.codecademy.com/t/type-mismatch-inferred-type-is-string-but-string-was-expected/540640)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+Working on these documents and content:
+* New section for Collection types examples
+* YouTube Video to explain the code
+* New program that condenses all the studied properties
