@@ -1,4 +1,4 @@
-class Lamp {
+class Computer {
 
     // property (data member)
     private var isOn: Boolean = false
@@ -13,17 +13,20 @@ class Lamp {
         isOn = false
     }
 
-    fun displayLightStatus() {
-        if (isOn == true)
-            println("lamp is on.")
-        else
-            println("lamp is off.")
+    fun displayStatus() {
+        // Here, if statement is simplified to evaluate a true value
+        if (isOn) {
+            println("Computer is on.")
+        }
+        else {
+            println("Computer is off.")
+        }
     }
 }
 
-fun main() {
-
-    val lamp = Lamp()
-    lamp.turnOn()
-    lamp.displayLightStatus()
-}
+//fun main() {
+////    Here we create a new object from Computer class
+//    val computer1 = Computer()
+//    computer1.turnOn()
+//    computer1.displayStatus()
+//}
