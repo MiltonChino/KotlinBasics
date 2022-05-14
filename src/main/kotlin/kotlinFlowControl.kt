@@ -1,15 +1,12 @@
 fun main() {
-    println("Hello World!")
-    println()
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
 
 //    ------CONDITIONALS IF------------
     var num1 = 0
     println("----FLOW CONTROL----")
     println("--Conditional If..else----")
     println()
-    print("Please type a number: ")
+    println("Positive or Negative?")
+    print("Please enter a number: ")
     val num2 = readLine()
     if(num2 != null) {
         num1 = num2.toInt()
@@ -29,7 +26,7 @@ fun main() {
             "and then replace the initial value with the input value")
     println()
 
-//    WHEN STATEMENT
+//    WHEN STATEMENT------------
     val a = 12
     val b = 5
     println("--Conditional When-----")
@@ -67,6 +64,7 @@ fun main() {
         println(heroes[hero])
     }
     println()
+
 //    DO WHILE LOOP
     println("--Do While Loop----")
     println()
@@ -76,7 +74,7 @@ fun main() {
     do {
         print("Enter an integer: ")
         input2 = readLine()!!
-        sum1 += input2.toInt()
+        sum1 += input2.toInt() // type conversion
 
         } while (input2 != "0")
 
@@ -84,14 +82,13 @@ fun main() {
         println()
 
 
-// CONTINUE---------
+// CONTINUE and BREAK---------
     var number: Int
     var sum2 = 0
     println("--Continue and Break for Loops----")
     println()
     println("// Here is a FOR loop that adds up an input value up to 10 times\n" +
             "The loop continues, or skips the process if user enters a negative value\n")
-    println()
     for (i in 1..10) {
         print("Enter an integer: ")
         number = readLine()!!.toInt() // !! not-null assertion operator

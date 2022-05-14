@@ -5,6 +5,7 @@ class Student {
     var firstName: String = "Unknown"
     var lastName: String = ""
     var age: Int = 0
+    private var status = ""
 
     // member function
     fun enroll() {
@@ -14,19 +15,18 @@ class Student {
     fun unregister() {
         isRegistered = false
     }
-    fun displayStatus() {
-        if (isRegistered)
-            println("$firstName is registered.")
-        else
-            println("$firstName is unregistered.")
+    fun displayStatus(): String{
+        status =  if(isRegistered){ "Registered."}
+        else{"Unregistered."}
+
+        return status
     }
     fun displayStudent(){
-//        println("Student Information")
+
         println("First Name: $firstName")
         println("Last Name: $lastName")
         println("Age: $age")
         displayStatus()
-        println()
     }
 }
 
@@ -46,9 +46,11 @@ fun main() {
     student1.enroll()
     student1.displayStatus()
     println()
+    println("Student information")
+    println("-------------------")
     student1.displayStudent()
     println()
-
+    println("-------------------------")
     println("Creating another student")
     val student2 = Student()
     student2.firstName = "John"
@@ -59,9 +61,11 @@ fun main() {
     student2.enroll()
     student2.displayStatus()
     println()
-    student1.displayStudent()
+    println("Student Information")
+    println("-------------------")
+    student2.displayStudent()
     println()
-
+    println("------------------------")
     println("Creating another student")
     val student3 = Student()
     student3.firstName = "Juan"
@@ -72,23 +76,27 @@ fun main() {
     student3.enroll()
     student3.displayStatus()
     println()
+    println("Student Information")
+    println("-------------------")
     student3.displayStudent()
     println()
 
-//    Collections
+//    Collections----------------
+//    Here I create a mutable set of students.
     val classList = mutableSetOf<Student>()
     classList.add(student1)
     classList.add(student2)
     classList.add(student3)
 
     println("Display the Class List")
-    println()
+    println("----------------------")
     printClass(classList)
     println()
 
     print("Do you want to unregister students(y/n)? ")
     var option = readLine()
     var name: String
+    var found = false
     println()
     if ( option == "y"){
         print("Enter student name: ")
@@ -96,11 +104,13 @@ fun main() {
         for(student in classList) {
             if (student.firstName == name){
                 student.unregister()
-                student.displayStatus()
+                println("${student.firstName} ${student.displayStatus()}")
+                found = true
                 break
-            }else {
-                println("Student not found")
             }
+        }
+        if (found == false){
+            println("Student not found")
         }
     } else {
         println("Good")
@@ -110,34 +120,39 @@ fun main() {
     print("Do you want to drop a student(y/n)? ")
     option = readLine()
     var n = 0
+    found = false
+    println()
     if ( option == "y"){
         print("Enter student name: ")
         name = readLine()!!
-        println()
         for(student in classList) {
             if (student.firstName == name){
                 classList.remove(student)
                 println("Student $name dropped.")
+                found = true
                 break
-            }else {
-                println("Student not found")
             }
             n++
         }
+        if (found == false){
+            println("Student not found")
+        }
     } else {
-        println("See you later")
+        println("It's OK")
     }
     println()
 
     println("Display the Class List")
+    println("----------------------")
     printClass(classList)
     println()
+    println("That's all, Thank you")
 
 }
 fun printClass(students: Collection<Student>) {
     for(student in students) {
-        print(student.displayStudent())
+        println("Student: ${student.firstName} ${student.lastName}")
+        println(student.displayStatus())
         println()
     }
-
 }

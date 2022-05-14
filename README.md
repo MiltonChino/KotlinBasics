@@ -12,8 +12,8 @@ The list of content of the repository is:
 
 This content will help to practice and test how Kotlin language is used.
 
-Video Explanation will come soon 
-[Software Demo Video](#)
+Video Explanation:
+[Software Demo Video](https://youtu.be/tms_KMT97q4)
 
 # Development Environment
 IntelliJ IDEA 2022.1 (Community Edition)
@@ -43,6 +43,5 @@ Kotlin: 221-1.6.20-release-285-IJ5080.210
 
 # Future Work
 Working on these documents and content:
-* New section for Collection types examples
-* YouTube Video to explain the code
-* New program that condenses all the studied properties
+* YouTube Video to explain the complete Code
+* Complete a Student Registration System

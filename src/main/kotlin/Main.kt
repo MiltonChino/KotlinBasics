@@ -1,5 +1,8 @@
-import kotlin.contracts.contract
-
+// USER DEFINED FUNCTIONS
+// Here is the function we call inside the main function
+fun myFunction() {
+    println("Hello, this is my function!")
+}
 fun main() {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
@@ -51,12 +54,6 @@ fun main() {
 }
 
 // USER DEFINED FUNCTIONS
-
-// Here is the function we call inside the main function
-fun myFunction() {
-    println("Hello, this is my function!")
-}
-
 // Here is the function we call inside the main function
 fun operateNumbers(n1: Double, n2: Double): Int {
     val result = n1 + n2

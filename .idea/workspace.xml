@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13022e71-aca8-46b7-995b-3e1fba643866" name="Changes" comment="Description update">
+    <list default="true" id="13022e71-aca8-46b7-995b-3e1fba643866" name="Changes" comment="Final Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinIntro.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/combineAll.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/combineAll.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinFlowControl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinFlowControl.kt" afterDir="false" />
     </list>
@@ -88,8 +88,8 @@
       <list>
         <item itemvalue="Kotlin.CombineAllKt" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.ClassExampleKt" />
         <item itemvalue="Kotlin.KotlinFlowControlKt" />
+        <item itemvalue="Kotlin.ClassExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652222542887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final Project">
+      <created>1652330190891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652330190891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Description update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Description update" />
+    <MESSAGE value="Final Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Project" />
   </component>
 </project>
